@@ -6,4 +6,4 @@ Adjuntamos los archivos de una simulación para un circuito divisor de voltaje r
 
 ![Alt text](https://github.com/jlaica/sim_divisor_voltaje/blob/main/div_viltaje.png)
 
-El video de este y otros ejemplos demostrativos, para llevar acabo la simulación lo puedes encontrar [aqui](https://www.instagram.com/tv/CQ2EBX4ALtt/?utm_source=ig_web_copy_link)
+El video de este y otros ejemplos demostrativos, para llevar acabo la simulación lo puedes encontrar [aqui](https://www.instagram.com/tv/CRCL8JogrVS/?utm_source=ig_web_copy_link)
