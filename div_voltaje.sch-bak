@@ -1,0 +1,83 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pspice:VSOURCE V1
+U 1 1 60E5D14E
+P 4000 3300
+F 0 "V1" H 4228 3346 50  0000 L CNN
+F 1 "dc 12" H 4228 3255 50  0000 L CNN
+F 2 "" H 4000 3300 50  0001 C CNN
+F 3 "~" H 4000 3300 50  0001 C CNN
+	1    4000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60E5D668
+P 5500 2950
+F 0 "R1" H 5570 2996 50  0000 L CNN
+F 1 "6k" H 5570 2905 50  0000 L CNN
+F 2 "" V 5430 2950 50  0001 C CNN
+F 3 "~" H 5500 2950 50  0001 C CNN
+	1    5500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60E5DA51
+P 5500 3600
+F 0 "R2" H 5570 3646 50  0000 L CNN
+F 1 "6k" H 5570 3555 50  0000 L CNN
+F 2 "" V 5430 3600 50  0001 C CNN
+F 3 "~" H 5500 3600 50  0001 C CNN
+	1    5500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:0 #GND?
+U 1 1 60E5E465
+P 5500 4250
+F 0 "#GND?" H 5500 4150 50  0001 C CNN
+F 1 "0" H 5500 4339 50  0000 C CNN
+F 2 "" H 5500 4250 50  0001 C CNN
+F 3 "~" H 5500 4250 50  0001 C CNN
+	1    5500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:0 #GND?
+U 1 1 60E5E910
+P 4000 4250
+F 0 "#GND?" H 4000 4150 50  0001 C CNN
+F 1 "0" H 4000 4339 50  0000 C CNN
+F 2 "" H 4000 4250 50  0001 C CNN
+F 3 "~" H 4000 4250 50  0001 C CNN
+	1    4000 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3600 4000 4250
+Wire Wire Line
+	5500 3750 5500 4250
+Wire Wire Line
+	5500 2800 5500 2600
+Wire Wire Line
+	5500 2600 4000 2600
+Wire Wire Line
+	4000 2600 4000 3000
+Wire Wire Line
+	5500 3100 5500 3450
+$EndSCHEMATC
